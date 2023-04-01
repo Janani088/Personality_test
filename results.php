@@ -7,6 +7,4 @@ $file = fopen("mbti_results.txt", "a");
 fwrite($file, $result . "\n");
 fclose($file);
 
-
-echo "Result stored successfully!";
 ?>
